@@ -51,15 +51,6 @@ Throughout the **C00 to C07** exercises, I progressively developed my understand
 | **C06** | `argc`, `argv` and program arguments                             |
 | **C07** | Dynamic memory allocation and manipulation of arrays and strings |
 
-### Shell exercises
-
-The Shell exercises helped me become more comfortable with **Unix and the command line**.
-
-|   Project   | What I practiced                                                                 |
-| :---------: | :------------------------------------------------------------------------------- |
-| **Shell00** | Unix commands, files, directories, permissions and basic command-line operations |
-| **Shell01** | `find`, `grep`, pipes, redirection and combining Unix commands                   |
-
 ### Rush00
 
 **`120 / 100` — Outstanding Project**
@@ -135,9 +126,6 @@ That combination of **independent research and collaborative learning** is one o
 42Porto-Piscine18/
 │
 ├── piscine/
-│   ├── shell00/
-│   ├── shell01/
-│   │
 │   ├── c00/
 │   ├── c01/
 │   ├── c02/
@@ -146,7 +134,6 @@ That combination of **independent research and collaborative learning** is one o
 │   ├── c05/
 │   ├── c06/
 │   ├── c07/
-│   │
 │   └── rush00/
 │
 ├── exam/
