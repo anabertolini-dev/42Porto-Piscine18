@@ -1,0 +1,22 @@
+	Write a program that takes one or more strings as arguments and
+	displays the longest substring that appears in every argument,
+	followed by a newline.
+
+	If multiple substrings have the same maximum length, the program
+	must display the one that appears first in the first argument.
+
+	Note that an empty string technically appears in every string.
+
+	If no arguments are provided, the program must display a newline.
+
+	Examples:
+	$> ./str_maxlenoc ab bac abacabccabcb
+	a
+	$> ./str_maxlenoc bonjour salut bonjour bonjour
+	u
+	$> ./str_maxlenoc xoxAoxo xoxAox oxAox oxo A ooxAoxx oxooxo Axo | cat -e
+	$
+	$> ./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjourafg
+	os
+	$> ./str_maxlenoc | cat -e
+	$

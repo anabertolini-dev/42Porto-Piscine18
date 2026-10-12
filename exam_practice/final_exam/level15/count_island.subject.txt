@@ -1,0 +1,33 @@
+	Write a program that takes a file containing lines of equal length.
+	Each line consists only of the characters '.' and 'X'. Together,
+	the lines form a grid in which the 'X' characters represent islands
+	surrounded by '.' characters.
+
+	The maximum line length is 1024 characters, including the
+	terminating newline.
+
+	A column consists of the characters in the file that are at the
+	same position in their respective lines.
+
+	Two characters are considered touching if they are adjacent on
+	the same line or if they are on consecutive lines in the same
+	column.
+
+	An island is a group of 'X' characters that are connected by
+	touching each other.
+
+	The program must read the file and display its contents, replacing
+	each 'X' with a digit corresponding to the order in which its
+	island first appears in the file, starting from the beginning.
+	Island numbering starts at 0.
+
+	There can be at most 10 islands.
+
+	If the file is empty, an error occurs (for example, due to
+	inconsistent input), or no arguments are provided, the program
+	must display only a newline.
+
+	You will find examples in the subject directory.
+
+	Allowed functions:
+		open, close, read, write, malloc, free

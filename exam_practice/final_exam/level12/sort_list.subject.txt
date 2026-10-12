@@ -1,0 +1,38 @@
+	Implement the following function:
+
+	t_list	*sort_list(t_list *lst, int (*cmp)(int, int));
+
+	The function must sort the given list using the cmp function
+	pointer to determine the order of the elements.
+
+	It must return a pointer to the first element of the sorted list.
+
+	Duplicate values must be preserved.
+
+	The input will always be valid.
+
+	You must use the t_list type defined in the provided list.h file.
+	You must include this file using #include "list.h", but you
+	must not submit it, as we will use our own version to compile
+	your assignment.
+
+	The cmp function will return a non-zero value if the two
+	integers are in the correct order, and 0 otherwise.
+
+	For example, the following cmp function sorts the list in
+	ascending order:
+
+	int	ascending(int a, int b)
+	{
+		return (a <= b);
+	}
+
+	The list.h file contains the following definition:
+
+	typedef struct s_list t_list;
+
+	struct s_list
+	{
+		int		data;
+		t_list	*next;
+	};

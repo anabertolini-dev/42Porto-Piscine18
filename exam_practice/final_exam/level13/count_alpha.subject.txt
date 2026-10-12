@@ -1,0 +1,23 @@
+	Write a program called count_alpha that takes a string and displays
+	the number of occurrences of each alphabetical character.
+
+	Non-alphabetical characters must not be counted. The characters
+	must be displayed in the order in which they first appear in
+	the string. The output must end with a newline.
+
+	The output format is shown in the examples below.
+
+	If the number of arguments is not 1, the program must display
+	only a newline.
+
+	Examples:
+	$> ./count_alpha abbcc
+	1a, 2b, 2c
+	$> ./count_alpha "abbcc"
+	1a, 2b, 2c
+	$> ./count_alpha "abbcc" "dddeef" | cat -e
+	$
+	$> ./count_alpha "My Hyze 47y 7." | cat -e
+	1m, 3y, 1h, 1z, 1e$
+	$> ./count_alpha "" | cat -e
+	$

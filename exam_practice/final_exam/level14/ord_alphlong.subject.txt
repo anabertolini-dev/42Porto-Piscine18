@@ -1,0 +1,35 @@
+	Write a program that takes a string as a parameter and prints
+	its words sorted first by length and then alphabetically,
+	with each word on a separate line.
+
+	Alphabetical order must be case-insensitive. For example, "aA"
+	and "Aa" are considered equal, and their original order must
+	be preserved. Duplicate words must also be preserved.
+
+	If the number of arguments is not 1, the program must print
+	a newline.
+
+	The string will contain only spaces, tabs, and alphanumeric
+	characters.
+
+	Words must be separated by exactly one space, with no spaces
+	before the first word or after the last word on each line.
+
+	Examples:
+	$> ./ord_alphlong
+	$
+	$> ./ord_alphlong "De son baton il frappa la pierre et l eau jaillit" | cat -e
+	l$
+	De et il la$
+	eau son$
+	baton$
+	frappa pierre$
+	jaillit$
+	$> ./ord_alphlong "A a b B cc ca cd" | cat -e
+	A a b B$
+	ca cc cd$
+	$> ./ord_alphlong "Pour l Imperium de l humanite" | cat -e
+	l l$
+	de$
+	Pour$
+	humanite Imperium$

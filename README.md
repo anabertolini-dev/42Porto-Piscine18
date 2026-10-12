@@ -125,18 +125,20 @@ That combination of **independent research and collaborative learning** is one o
 ```text
 42Porto-Piscine18/
 │
-├── piscine/
-│   ├── c00/
-│   ├── c01/
-│   ├── c02/
-│   ├── c03/
-│   ├── c04/
-│   ├── c05/
-│   ├── c06/
-│   ├── c07/
-│   └── rush00/
+├── c_exercises/
+│   ├── C00/
+│   ├── C01/
+│   ├── C02/
+│   ├── C03/
+│   ├── C04/
+│   ├── C05/
+│   ├── C06/
+│   ├── C07/
 │
-├── exam/
+├── rush_project/
+│   ├── rush00/
+│
+├── exam_practice/
 │   ├── exam00/
 │   ├── exam01/
 │   ├── exam02/

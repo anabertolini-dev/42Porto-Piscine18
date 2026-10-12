@@ -1,0 +1,36 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   swap_cases.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ana-cmar <ana-cmar@student.42porto.com>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/05 08:59:17 by ana-cmar          #+#    #+#             */
+/*   Updated: 2026/10/05 09:00:45 by ana-cmar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/*
+	Write a function that takes a string and reverses the case of all its
+	letters. Other characters remain unchanged.
+
+	Your function should be declared as follows:
+
+	char	*swap_cases(char *str);
+*/
+
+char	*swap_cases(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (str[i] >= 'A' && str[i] <= 'Z')
+			str[i] += 32;
+		else if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] -= 32;
+		i++;
+	}
+	return (str);
+}
